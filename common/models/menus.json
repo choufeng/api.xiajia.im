@@ -29,6 +29,9 @@
     },
     "rule": {
       "type": "string"
+    },
+    "sortby": {
+      "type": "number"
     }
   },
   "validations": [],
