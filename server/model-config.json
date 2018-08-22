@@ -38,5 +38,13 @@
   "articles": {
     "dataSource": "mongodb",
     "public": true
+  },
+  "basic_config": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "menus": {
+    "dataSource": "mongodb",
+    "public": true
   }
 }
