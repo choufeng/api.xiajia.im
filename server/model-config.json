@@ -46,5 +46,13 @@
   "menus": {
     "dataSource": "mongodb",
     "public": true
+  },
+  "nodes": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "groups": {
+    "dataSource": "mongodb",
+    "public": true
   }
 }
