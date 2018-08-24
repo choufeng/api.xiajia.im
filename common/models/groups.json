@@ -17,8 +17,7 @@
     "nodekeys": {
       "type": [
           "string"
-      ],
-      "required": true
+      ]
     },
     "sortby": {
       "type": "number",
