@@ -18,22 +18,22 @@
   },
   "AccessToken": {
     "dataSource": "mongodb",
-    "public": false
+    "public": true
   },
   "ACL": {
     "dataSource": "mongodb",
-    "public": false
+    "public": true
   },
   "RoleMapping": {
     "dataSource": "mongodb",
-    "public": false,
+    "public": true,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
     "dataSource": "mongodb",
-    "public": false
+    "public": true
   },
   "articles": {
     "dataSource": "mongodb",
@@ -52,6 +52,10 @@
     "public": true
   },
   "groups": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "user_info": {
     "dataSource": "mongodb",
     "public": true
   }

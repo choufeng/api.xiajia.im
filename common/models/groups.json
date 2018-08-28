@@ -16,7 +16,7 @@
     },
     "nodekeys": {
       "type": [
-          "string"
+        "string"
       ]
     },
     "sortby": {
