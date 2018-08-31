@@ -2,14 +2,15 @@
   "name": "user_info",
   "plural": "user_info",
   "base": "PersistedModel",
-  "idInjection": true,
+  "idInjection": false,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "user_id": {
+    "id": {
       "type": "string",
-      "required": true
+      "required": true,
+      "id": true
     },
     "nodes": {
       "type": [
