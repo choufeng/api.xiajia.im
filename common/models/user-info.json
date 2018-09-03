@@ -9,8 +9,8 @@
   "properties": {
     "id": {
       "type": "string",
-      "required": true,
-      "id": true
+      "id": true,
+      "required": true
     },
     "nodes": {
       "type": [
@@ -26,7 +26,16 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "groups": {
+      "type": "belongsTo",
+      "model": "groups",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
   "acls": [],
   "methods": {}
 }
